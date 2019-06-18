@@ -1,0 +1,3 @@
+SET SERVICE_NAME=ServiceXSJS
+SET SERVICE_DESC=Serviço de requição de dados
+SET SERVICE_WIN=64
