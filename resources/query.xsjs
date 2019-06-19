@@ -7,7 +7,7 @@ function isValidQuery(query){
 		 "drop",
 		 "update", 
 		 "into" 
-	];++9
+	];
 	
 	var status = true;
 	
@@ -38,6 +38,8 @@ function showQuery(){
 	var params = JSON.parse($.request.body.asString());
 		
 	var conn = $.hdb.getConnection();
+	
+	//var query = params.data.replace(/'/g, '"');
 	
 	var query = params.data;
 	

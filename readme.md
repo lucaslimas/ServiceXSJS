@@ -29,7 +29,7 @@ const nodeServiceUrl = "http://localhost:6000/query";
 const data = {
   xsjs: "https://hanab1:4300/PortalTeste/query.xsjs",
   query:
-    'select "DocEntry", "CardCode", "CardName" from "SBO_LIPSON_ROTATIVO"."OINV"'
+    "select 'DocEntry', 'CardCode', 'CardName' from 'SBO_LIPSON_ROTATIVO'.'OINV'"
 };
 
 $.ajax({
